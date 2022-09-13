@@ -1,0 +1,143 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.bg {
+    background-color: #ECECEC;
+    padding: 15px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-content: center;
+
+}
+
+/* 
+.logo {
+    display: flex;
+    alin-content: center;
+} */
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(183, 183, 183);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 17px 0px 17px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #fff;
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #C21010;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-grey {
+    background: whitesmoke;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.img{
+    padding: 12%;
+    width: 150px;
+    height: 150px;
+}
+
+.greenbutton{
+    background : #65D777;
+    padding: 1px 20px 1px 20px;
+    border-color: #65D777;;
+    color: white;
+    cursor: pointer;
+}
+
+.author{
+    float: right;
+}
+
+.author p{
+    float: right;
+    margin-right: 5%;
+    margin: 1%;
+}
+
+.author img{
+    width: 30%;
+    border-radius: 50%;
+    float: right;
+}

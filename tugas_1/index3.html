@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Boku No Hero Academia</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .wrapper{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-auto-rows: minmax(100px, auto);
+            /* grid-gap: 1em; */
+            justify-items: stretch;
+            align-items: stretch;
+            text-align: center;
+            font-size: xx-large;
+        }
+
+        /* .wrapper > div{
+            background: #eee;
+            pading:1em;
+        }
+        .wrapper > div:nth-child(odd){
+            background: #ddd;
+        } */
+
+        .box1{
+            /* align-self: start; */
+            grid-column: 1;
+            grid-row: 1/4;
+            border: 1px solid #333;
+        }
+
+        .box2{
+            /* align-self: end; */
+            grid-column: 2/4;
+            grid-row: 1;
+            border: 1px solid #333;
+
+        }
+
+        .box3{
+            /* justify-self: end; */
+            grid-column: 4/6;
+            grid-row: 1;
+            border: 1px solid #333;
+        }
+
+        .box4{
+            grid-column: 1;
+            grid-row: 4/7;
+            border: 1px solid #333;
+
+        }
+        .box5{
+            grid-column: 2;
+            grid-row: 2/5;
+            border: 1px solid #333;
+
+        }
+        .box6{
+            grid-column: 2/4;
+            grid-row: 5/7;
+            border: 1px solid #333;
+
+        }
+        .box7{
+            grid-column: 3/6;
+            grid-row: 2;
+            border: 1px solid #333;
+
+        }
+        .box8{
+            grid-column: 3;
+            grid-row: 3/5;
+            border: 1px solid #333;
+
+        }
+        .box9{
+            grid-column: 4/6;
+            grid-row: 3/7;
+            border: 1px solid #333;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+       <div class="box box1">Merah</div>
+       <div class="box box2">Hijau</div>
+       <div class="box box3">Ungu</div>
+       <div class="box box4">Jingga</div>
+       <div class="box box5">Pink</div>
+       <div class="box box6">Kuning</div>
+       <div class="box box7">Hijau Muda</div>
+       <div class="box box8">Biru</div>
+       <div class="box box9">Biru tua</div>
+    </div>
+</body>
+</html>

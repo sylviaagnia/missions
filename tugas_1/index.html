@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Grids</title>
+    <style>
+        .wrapper {
+            display:grid;
+            grid-template-columns: 70% 30%;
+            /* grid-column-gap:1em;
+            grid-row-gap:1em; */
+            grid-gap:1em;
+        }
+            
+        .wrapper > div{
+            background: #eee;
+            pading:1em;
+        }
+        .wrapper > div:nth-child(odd){
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            aku sjhaoi ajlsfnaj jsavnja 
+            jsfbja njkabvsj abvjkadbv jabvjad 
+            jabjvadjvbaj jadvadkd
+        </div>
+
+        <div>
+            jdnfaljkfn nvajva bjabvjakd  
+            djabvjkdbva dajbvjad jdbvajvba 
+            jdabva jdv dhakvbakdb vbkajdbvjad dkb
+        </div>
+        <div>Kacchan</div>
+    </div>
+</body>
+</html>
